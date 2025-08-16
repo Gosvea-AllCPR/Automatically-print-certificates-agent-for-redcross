@@ -1,0 +1,20 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略日志和记录文件
+printed_emails.txt
+failed_certificates.xlsx
+
+# 忽略隐藏系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略所有 Excel 数据文件
+*.xlsx
+# 忽略运行时生成的邮箱记录
+printed_emails.txt
+failed_certificates.xlsx
+# 忽略打包和构建目录
+dist/
+build/
